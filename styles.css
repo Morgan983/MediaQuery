@@ -1,0 +1,68 @@
+body {
+    background-color: blue;
+}
+
+h1 {
+    font-size: 1.8em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+img {
+	max-width: 100%;
+}
+
+figure {
+	margin: 0;
+}
+
+@media only screen and (min-width: 375px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    body {
+        font-size: 18px;
+        margin: 10px;
+        background-color: red;
+    }
+    
+    #header {
+        color:blueviolet;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+   body {
+    background-image: url('#');
+   }
+
+   #cat-pictures {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   }
+}
+
+@media only screen and (min-width: 1020px) {
+    body {
+     background-color: orange;
+     max-width: 1080px;
+     margin: 20px auto;
+    }
+ 
+    #cat-pictures {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+    }
+ }
+ figure {
+	background: purple;
+	border-radius: 5px;
+	color: white;
+	margin: 0 25px 25px 0;
+	padding: 10px;
+	text-align: center;
+	
+}
